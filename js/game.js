@@ -1,42 +1,32 @@
-// Данные сцен новеллы
+// Данные сцен новеллы "Ворона и Лиса"
 const scenes = [
-    {
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        characters: [],
-        speaker: '',
-        text: 'Добро пожаловать в визуальную новеллу! Это демонстрационная сцена.'
-    },
-    {
-        background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-        characters: [
-            { name: 'hero', image: '👦', position: 'left' }
-        ],
-        speaker: 'Главный герой',
-        text: 'Привет! Я главный герой этой истории. Здесь мог бы быть мой спрайт!'
-    },
-    {
-        background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-        characters: [
-            { name: 'heroine', image: '👧', position: 'right' }
-        ],
-        speaker: 'Героиня',
-        text: 'А я героиня! Мы можем добавлять персонажей и менять фоны между сценами.'
-    },
-    {
-        background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
-        characters: [
-            { name: 'hero', image: '👦', position: 'left' },
-            { name: 'heroine', image: '👧', position: 'right' }
-        ],
-        speaker: 'Главный герой',
-        text: 'Теперь мы оба на экране! Кнопка "Далее" переключает сцены.'
-    },
-    {
-        background: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
-        characters: [],
-        speaker: '',
-        text: 'Это последняя сцена демо-версии. Вы можете расширять эту структуру, добавляя новые сцены, изображения и логику!'
-    }
+    { background: 'images/backgrounds/forest.jpg', character: null, speaker: '', text: 'Уж сколько раз твердили миру,' },
+    { background: 'images/backgrounds/forest.jpg', character: null, speaker: '', text: 'Что лесть гнусна, вредна; но только всё не впрок,' },
+    { background: 'images/backgrounds/forest.jpg', character: null, speaker: '', text: 'И в сердце льстец всегда отыщет уголок.' },
+    { background: 'images/backgrounds/forest.jpg', character: null, speaker: '', text: '' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'Вороне где-то бог послал кусочек сыру;' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'На ель Ворона взгромоздясь,' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'Позавтракать-было совсем уж собралась,' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'Да позадумалась, а сыр во рту держала.' },
+    { background: 'images/backgrounds/forest.jpg', character: 'images/characters/fox.png', speaker: '', text: 'На ту беду Лиса близехонько бежала;' },
+    { background: 'images/backgrounds/forest.jpg', character: 'images/characters/fox.png', speaker: '', text: 'Вдруг сырный дух Лису остановил:' },
+    { background: 'images/backgrounds/forest.jpg', character: 'images/characters/fox.png', speaker: '', text: 'Лисица видит сыр, — Лисицу сыр пленил.' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: '', text: 'Плутовка к дереву на цыпочках подходит;' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: '', text: 'Вертит хвостом, с Вороны глаз не сводит,' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: '', text: 'И говорит так сладко, чуть дыша:' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: '«Голубушка, как хороша!' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'Ну что за шейка, что за глазки!' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'Рассказывать, так, право, сказки!' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'Какие перушки! какой носок!' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'И верно ангельский быть должен голосок!' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'Спой, светик, не стыдись! Что ежели, сестрица,' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'При красоте такой, и петь ты мастерица,' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/fox.png', speaker: 'Лиса', text: 'Ведь ты б у нас была царь-птица!»' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'Вещуньина с похвал вскружилась голова,' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'От радости в зобу дыханье сперло, —' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'И на приветливы лисицыны слова' },
+    { background: 'images/backgrounds/tree.jpg', character: 'images/characters/crow.png', speaker: '', text: 'Ворона каркнула во все воронье горло:' },
+    { background: 'images/backgrounds/forest.jpg', character: null, speaker: '', text: 'Сыр выпал — с ним была плутовка такова.' }
 ];
 
 // Текущее состояние игры
@@ -60,19 +50,19 @@ function showScene(index) {
     const scene = scenes[index];
 
     // Устанавливаем фон
-    backgroundEl.style.background = scene.background;
+    backgroundEl.style.background = `url('${scene.background}')`;
     backgroundEl.style.backgroundSize = 'cover';
     backgroundEl.style.backgroundPosition = 'center';
 
-    // Отображаем персонажей
+    // Отображаем персонажа
     charactersEl.innerHTML = '';
-    scene.characters.forEach(char => {
-        const charEl = document.createElement('div');
+    if (scene.character) {
+        const charEl = document.createElement('img');
         charEl.className = 'character';
-        charEl.textContent = char.image;
-        charEl.style.fontSize = '150px';
+        charEl.src = scene.character;
+        charEl.alt = 'Персонаж';
         charactersEl.appendChild(charEl);
-    });
+    }
 
     // Устанавливаем текст
     speakerNameEl.textContent = scene.speaker;

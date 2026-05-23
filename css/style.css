@@ -39,6 +39,7 @@ body {
 .character {
     max-height: 400px;
     transition: opacity 0.3s ease;
+    object-fit: contain;
 }
 
 #dialogue-box {
